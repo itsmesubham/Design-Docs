@@ -120,7 +120,6 @@
   * `useCount`, `lastUsedAt`
   * `createdAt`, `updatedAt`
 
-> **Why defaultAddressId in user_profile?** Avoid “two default addresses” bugs. Default update becomes a single atomic write.
 
 ### 4.2 Redis – Ephemeral Current Location
 
